@@ -17,7 +17,7 @@ deployment:
     image:
       #repository: "paulbouwer/hello-kubernetes"
       repository: "kxs35cr1.azurecr.io/promanhellokubernetes"
-      tag: "" # uses chart appVersion if not provided
+      tag: "48501" # uses chart appVersion if not provided
       pullPolicy: IfNotPresent
     port: 8080
 
